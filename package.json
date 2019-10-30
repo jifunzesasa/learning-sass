@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "sass src/index.scss dist/index.css"
+  },
+  "dependencies": {
+    "sass": "^1.23.2"
+  }
+}
