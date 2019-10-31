@@ -1,8 +1,26 @@
 {
+  "name": "cardcss",
+  "description": "Building a CSS Framework",
+  "version": "1.0.0",
   "scripts": {
     "build": "sass src/index.scss dist/index.css"
   },
   "dependencies": {
     "sass": "1.23.2"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaolomi/cardcss.git"
+  },
+  "keywords": [],
+  "author": "Alpha Olomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphaolomi/cardcss/issues"
+  },
+  "homepage": "https://github.com/alphaolomi/cardcss#readme"
 }
