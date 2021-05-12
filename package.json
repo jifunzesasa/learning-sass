@@ -6,7 +6,7 @@
     "build": "sass src/index.scss dist/index.css"
   },
   "dependencies": {
-    "sass": "1.32.12"
+    "sass": "1.32.13"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
