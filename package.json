@@ -1,26 +1,13 @@
 {
-  "name": "cardcss",
-  "description": "Building a CSS Framework",
-  "version": "1.0.0",
+  "name": "simple-css",
+  "author": "Alpha Olomi",
+  "license": "MIT",
+  "description": "Building a simple CSS Framework",
+  "version": "1.1.0",
   "scripts": {
     "build": "sass src/index.scss dist/index.css"
   },
   "dependencies": {
-    "sass": "1.37.0"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alphaolomi/cardcss.git"
-  },
-  "keywords": [],
-  "author": "Alpha Olomi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alphaolomi/cardcss/issues"
-  },
-  "homepage": "https://github.com/alphaolomi/cardcss#readme"
+    "sass": "^1.37.2"
+  }
 }
